@@ -1,0 +1,26 @@
+{
+    "type":"crafting_shaped",
+    "result": {
+        "item": "minecraft:end_rod",
+        "count": 1
+    },
+    "pattern": [
+        " G ",
+        " S ",
+        "CEC"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "G": {
+            "item": "minecraft:glowstone"
+        },
+        "E": {
+            "item": "minecraft:end_stone"
+        },
+        "C": {
+            "item": "minecraft:chorus_fruit"
+        }
+    }
+}
