@@ -1,0 +1,20 @@
+{
+    "type":"crafting_shaped",
+    "result": {
+        "item": "minecraft:orange_concrete",
+        "count": 8
+    },
+    "pattern": [
+        "CCC",
+        "CWC",
+        "CCC"
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:water_bucket"
+        },
+        "C": {
+            "item": "minecraft:orange_concrete_powder"
+        }
+    }
+}

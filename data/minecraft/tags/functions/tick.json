@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "item_frame:ticker"
+        "new_craftings:frames",
+        "new_craftings:concrete"
     ]
 }
