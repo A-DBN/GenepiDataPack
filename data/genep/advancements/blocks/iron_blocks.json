@@ -9,7 +9,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "new_advancements:blocks/copper_blocks",
+    "parent": "genep:blocks/copper_blocks",
     "criteria": {
       "iron_block": {
         "trigger": "minecraft:inventory_changed",

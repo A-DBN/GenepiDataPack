@@ -4,7 +4,7 @@
         "item": "minecraft:copper_block"
       },
       "title": "Useless as always",
-      "description": "Get 64 iron blocks",
+      "description": "Get 64 copper blocks",
       "frame": "task",
       "announce_to_chat": true,
       "hidden": false

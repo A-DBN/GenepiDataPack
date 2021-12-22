@@ -6,12 +6,12 @@
     },
     "pattern": [
         "GGG",
-        "GAG",
+        "GNG",
         "GGG"
     ],
     "key": {
-        "A": {
-            "item": "minecraft:apple"
+        "N": {
+            "item": "minecraft:nether_star"
         },
         "G": {
             "item": "minecraft:gold_block"
