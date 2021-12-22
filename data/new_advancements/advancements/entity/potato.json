@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potato"
+        },
+        "title": {"translate":"In Your Face, Neil Armstrong"},
+        "description": {"translate":"Colonise the End with potato crops"},
+        "announce_to_chat": true
+    },
+    "parent": "minecraft:story/enter_the_end",	
+    "criteria": {
+        "potato": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+				"block": "minecraft:potatoes",
+				"location": {
+					"dimension": "the_end"
+				}
+            }
+        }
+    }
+}

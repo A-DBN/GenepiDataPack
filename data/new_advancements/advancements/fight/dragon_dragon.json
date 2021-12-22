@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_breath",
+			"nbt": "{Charged:1b}"
+        },
+        "title": {"translate":"Dragon vs Dragon"},
+        "description": {"color":"#75E1FF","translate":"Kill the Ender Dragon while wearing a Dragon Head"},
+        "announce_to_chat": false,
+		"frame": "goal",
+        "hidden": true
+    },
+    "parent": "minecraft:story/enter_the_end",	
+    "criteria": {
+      "kill": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "head": {
+                "items": [
+                  "minecraft:dragon_head"
+                ]
+              }
+            }
+          },
+          "entity": {
+            "type": "minecraft:ender_dragon"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "kill"
+      ]
+    ] 
+}    

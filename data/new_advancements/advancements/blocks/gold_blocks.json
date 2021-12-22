@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:gold_block"
+      },
+      "title": "I'm Rich",
+      "description": "Get 64 gold blocks",
+      "frame": "task",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "new_advancements:blocks/iron_blocks",
+    "criteria": {
+      "iron_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:gold_block"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 55
+    }
+  }
+  

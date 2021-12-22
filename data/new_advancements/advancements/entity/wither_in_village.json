@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:villager_spawn_egg"
+      },
+      "title": "Destroy Everything",
+      "description": "Summon a wither in a village",
+      "frame": "challenge",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:nether/summon_wither",
+    "criteria": {
+      "withers": {
+        "trigger": "minecraft:summoned_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:wither",
+            "location": {
+              "feature": "village",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        }
+      }
+    }
+  }
+  

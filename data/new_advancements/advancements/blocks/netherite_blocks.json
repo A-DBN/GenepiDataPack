@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_block"
+      },
+      "title": "What the point ?",
+      "description": "Get 64 netherite blocks",
+      "frame": "challenge",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "new_advancements:blocks/diamond_blocks",
+    "criteria": {
+      "iron_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:netherite_block"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 31000
+    }
+  }
+  

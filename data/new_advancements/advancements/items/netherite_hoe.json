@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_hoe"
+      },
+      "title": " Are You Sadomasochistic ?",
+      "description": "Use a unbreaking 3 netherite hoe until the very end",
+      "frame": "challenge",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:husbandry/obtain_netherite_hoe",
+    "criteria": {
+      "netherite_hoe": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "delta": -1,
+          "durability": 1,
+          "item": {
+            "items": [
+              "minecraft:netherite_hoe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+  

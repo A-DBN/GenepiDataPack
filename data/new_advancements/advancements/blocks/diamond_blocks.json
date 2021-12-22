@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_block"
+      },
+      "title": "What are you doing ?",
+      "description": "Get 64 diamond blocks",
+      "frame": "goal",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "new_advancements:blocks/gold_blocks",
+    "criteria": {
+      "iron_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:diamond_block"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 160
+    }
+  }
+  
