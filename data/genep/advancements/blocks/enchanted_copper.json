@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:copper_block"
+      },
+      "title": "Finally Usefull ... I Suppose ?",
+      "description": "Get an enchanted copper block",
+      "frame": "task",
+      "background": "minecraft:textures/block/lime_wool.png",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:copper_block"
+              ],
+              "count": 1,
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:mending",
+                  "levels": 3
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 31000
+    }
+  }
+  

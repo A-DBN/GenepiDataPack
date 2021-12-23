@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_block"
+      },
+      "title": "Poor Iron Golems",
+      "description": "Get an enchanted iron block",
+      "frame": "task",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "genep:blocks/enchanted_copper",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:iron_block"
+              ],
+              "count": 1,
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:mending",
+                  "levels": 3
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 31000
+    }
+  }
+  

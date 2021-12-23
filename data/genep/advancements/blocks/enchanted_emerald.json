@@ -1,0 +1,39 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:emerald_block"
+      },
+      "title": "Stonks",
+      "description": "Get an enchanted emerald block",
+      "frame": "challenge",
+      "background": "minecraft:textures/block/emerald_block.png",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "genep:blocks/enchanted_copper",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:emerald_block"
+              ],
+              "count": 1,
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:mending",
+                  "levels": 3
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 31000
+    }
+  }
+  

@@ -1,0 +1,3 @@
+execute as @e[type=minecraft:item, nbt={Item:{id:"minecraft:villager_spawn_egg"}}] at @s if entity @e[type=minecraft:item, sort=nearest, limit=512, distance=..1, nbt={Item:{id:"minecraft:emerald_block"}}] if block ~ ~-1 ~ #anvil run give @p emerald_block{Enchantments:[{id:"minecraft:mending",lvl:3}]}
+execute as @e[type=minecraft:item, nbt={Item:{id:"minecraft:villager_spawn_egg"}}] at @s if entity @e[type=minecraft:item, sort=nearest, limit=512, distance=..1, nbt={Item:{id:"minecraft:emerald_block"}}] if block ~ ~-1 ~ #anvil run kill @e[type=minecraft:item, nbt={Item:{id:"minecraft:emerald_block"}}]
+

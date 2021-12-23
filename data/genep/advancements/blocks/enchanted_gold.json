@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:gold_block"
+      },
+      "title": "Pigman, Oh Pigman ... Just Die",
+      "description": "Get an enchanted gold block",
+      "frame": "task",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "genep:blocks/enchanted_copper",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:gold_block"
+              ],
+              "count": 1,
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:mending",
+                  "levels": 3
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 31000
+    }
+  }
+  
