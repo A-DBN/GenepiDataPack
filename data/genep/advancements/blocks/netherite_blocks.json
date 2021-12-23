@@ -3,7 +3,7 @@
       "icon": {
         "item": "minecraft:netherite_block"
       },
-      "title": "What the point ?",
+      "title": "What's the point ?",
       "description": "Get 32 netherite blocks",
       "frame": "challenge",
       "announce_to_chat": true,

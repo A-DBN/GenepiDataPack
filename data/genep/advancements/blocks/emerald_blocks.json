@@ -25,11 +25,6 @@
         }
       }
     },
-    "rewards": {
-      "experience": 360,
-      "commands": [
-        "/give @p minecraft:villager_spawn_egg"
-      ]
-    }
+    "rewards": { "function": "main:villager_egg" }
   }
   
