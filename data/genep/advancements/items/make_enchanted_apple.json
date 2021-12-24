@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:golden_apple"
+      },
+      "title": "Why Do You Need This Apple ?",
+      "description": "Get an enchanted golden apple",
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+      "craft": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:enchanted_golden_apple"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }

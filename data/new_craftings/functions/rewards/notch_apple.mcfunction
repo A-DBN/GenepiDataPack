@@ -1,0 +1,1 @@
+execute as @p run give @p name_tag{display:{Name: '{"text":"You Are Trash", "color":"yellow", "italic": true, "bold": true}'}}
