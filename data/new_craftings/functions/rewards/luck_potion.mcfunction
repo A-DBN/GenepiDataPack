@@ -1,0 +1,1 @@
+give @p potion{CustomPotionEffects:[{Id:26,Amplifier:3,Duration:72000}], display:{Name: '{"text":"Enchanted Potion Of Luck", "color":"lime", "italic": true, "bold": true}'}} 1

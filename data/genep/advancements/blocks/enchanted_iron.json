@@ -32,7 +32,8 @@
       }
     },
     "rewards": {
-      "experience": 31000
+      "experience": 2000,
+      "function": "new_craftings:rewards/resistance_potion"
     }
   }
   

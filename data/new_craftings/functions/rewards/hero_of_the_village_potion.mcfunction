@@ -1,0 +1,1 @@
+give @p potion{CustomPotionEffects:[{Id:32,Amplifier:5,Duration:72000}], display:{Name: '{"text":"Enchanted Potion of Stonks", "color":"green", "italic": true, "bold": true}'}} 1

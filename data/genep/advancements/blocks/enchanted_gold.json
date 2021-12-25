@@ -32,7 +32,8 @@
       }
     },
     "rewards": {
-      "experience": 31000
+      "experience": 5000,
+      "function": "new_craftings:rewards/luck_potion"
     }
   }
   

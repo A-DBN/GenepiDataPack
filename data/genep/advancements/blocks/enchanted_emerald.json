@@ -33,7 +33,8 @@
       }
     },
     "rewards": {
-      "experience": 31000
+      "experience": 10000,
+      "function": "new_craftings:rewards/hero_of_the_village_potion"
     }
   }
   
