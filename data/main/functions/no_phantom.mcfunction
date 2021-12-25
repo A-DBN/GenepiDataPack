@@ -1,1 +1,1 @@
-execute as @a run kill @e[type=phantom,distance=..15]
+execute at @a run kill @e[type=phantom,distance=..10]
