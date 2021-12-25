@@ -1,0 +1,5 @@
+execute as @p if entity @e[type=player, name="wisealexis"] run give @p player_head{SkullOwner:"wisealexis",display:{Name:'{"text":"wisealexis\'s head", "color":"yellow", "italic": true, "bold": true}'}}
+execute as @p if entity @e[type=player, name="ZenkiuD"] run give @p player_head{SkullOwner:"ZenkiuD",display:{Name:'{"text":"ZenkiuD\'s head", "color":"yellow", "italic": true, "bold": true}'}}
+execute as @p if entity @e[type=player, name="Layze35"] run give @p player_head{SkullOwner:"Layze35",display:{Name:'{"text":"Layze35\'s head", "color":"yellow", "italic": true, "bold": true}'}}
+execute as @p if entity @e[type=player, name="Sovn"] run give @p player_head{SkullOwner:"Sovn",display:{Name:'{"text":"Sovn\'s head", "color":"yellow", "italic": true, "bold": true}'}}
+execute as @p if entity @e[type=player, name="Sarahka_"] run give @p player_head{SkullOwner:"Sarahka_",display:{Name:'{"text":"Sarahka_\'s head", "color":"yellow", "italic": true, "bold": true}'}}
