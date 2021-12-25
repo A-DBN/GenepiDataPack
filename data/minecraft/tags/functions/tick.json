@@ -7,6 +7,7 @@
         "new_craftings:enchanted_copper",
         "new_craftings:enchanted_iron",
         "new_craftings:enchanted_gold",
-        "new_craftings:enchanted_diamond"
+        "new_craftings:enchanted_diamond",
+        "main:no_phantom"
     ]
 }
