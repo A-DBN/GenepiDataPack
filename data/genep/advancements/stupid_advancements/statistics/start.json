@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "title": {"translate":"Statistics"},
+        "description": {"translate":"The Beginning Of The Statistic"},
+        "announce_to_chat": false,
+        "show_toast": false,
+        "background": "minecraft:textures/block/brown_wool.png",
+		"frame": "task"
+    },
+    "criteria": {
+        "mine_nether_gold_ore": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:mined",
+								"stat": "minecraft:stone",
+								"value": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

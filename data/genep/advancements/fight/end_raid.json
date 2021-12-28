@@ -8,10 +8,7 @@
         "announce_to_chat": false,
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:challenges/root",
-    "rewards": {
-		"function": "bc_rewards:challenges/were_in_the_endgame_now"
-    },		
+    "parent": "blazeandcave:challenges/root",	
     "criteria": {
         "start_raid_end": {
             "trigger": "minecraft:voluntary_exile",

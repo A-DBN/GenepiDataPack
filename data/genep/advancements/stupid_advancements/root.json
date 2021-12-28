@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "title": "The End",
+        "background": "minecraft:textures/block/black_wool.png",
+        "description": " You have reached the end of the world. You must leave now or you will die. "
+    },
+	"criteria": {
+        "root": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"genep:stupid_advancements/statistics/root": "true",
+                            "genep:stupid_advancements/mining/root": "true",
+                            "genep:stupid_advancements/adventure/root": "true"
+						}
+					}
+				}
+			}
+        }
+    }
+}

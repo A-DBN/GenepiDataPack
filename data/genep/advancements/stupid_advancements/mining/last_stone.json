@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate"
+        },
+        "title": {"translate":"Bulldozer"},
+        "description": {"translate":"Destroy a total of 100,000 blocks of stone"},
+        "announce_to_chat": false,
+		"frame": "challenge"
+    },
+    "parent": "genep:stupid_advancements/mining/first_stone",	
+    "criteria": {
+        "mine_nether_gold_ore": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:mined",
+								"stat": "minecraft:stone",
+								"value": {
+									"min": 100000
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}
