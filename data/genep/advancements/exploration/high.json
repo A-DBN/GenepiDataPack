@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "title": {"translate":"Uh, Houston? We have a problem"},
+        "description": {"translate":"Fly up to a ridiculous height"},
+        "announce_to_chat": false,
+        "frame": "challenge"
+    },
+    "parent": "minecraft:end/elytra",	
+    "criteria": {
+        "world_height": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"y": {
+						"min": 1000.0
+					}
+				}
+            }
+        }	
+    }
+}
