@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:firework_rocket"
         },
-        "title": {"translate":"Uh, Houston? We have a problem"},
-        "description": {"translate":"Fly up to a ridiculous height"},
+        "title": "Uh, Houston? We have a problem",
+        "description": "Fly up to a ridiculous height",
         "announce_to_chat": false,
         "frame": "challenge"
     },
