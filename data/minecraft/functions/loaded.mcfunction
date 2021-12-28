@@ -1,1 +1,1 @@
-tellraw @a {"text":"[GenepiDataPack] Successfully Loaded", "bold": true, "color":"lime", "clickEvent": {"action": "open_url", "value": "https://www.youtube.com/watch?v=XTKZiE1l1yU&ab_channel=PMUHUB"}}
+tellraw @a {"text":"[GenepiDataPack] Successfully Loaded", "bold": true, "color":"green", "clickEvent": {"action": "open_url", "value": "https://www.youtube.com/watch?v=XTKZiE1l1yU&ab_channel=PMUHUB"}}
