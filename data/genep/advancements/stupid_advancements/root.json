@@ -11,20 +11,15 @@
 		"frame": "task"
     },
     "criteria": {
-        "mine_nether_gold_ore": {
+        "root": {
             "trigger": "minecraft:location",
-			"criteria": {
-                "root": {
-                    "trigger": "minecraft:location",
-                    "conditions": {
-                        "player":  {
-                            "player": {
-                                "advancements": {
-                                    "genep:stupid_advancements/statistics/root": "true",
-                                    "genep:stupid_advancements/mining/root": "true",
-                                    "genep:stupid_advancements/adventure/root": "true"
-                                }
-                            }
+            "conditions": {
+                "player":  {
+                    "player": {
+                        "advancements": {
+                            "genep:stupid_advancements/statistics/root": "true",
+                            "genep:stupid_advancements/mining/root": "true",
+                            "genep:stupid_advancements/adventure/root": "true"
                         }
                     }
                 }
