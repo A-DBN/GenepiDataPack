@@ -8,6 +8,7 @@
         "new_craftings:enchanted_iron",
         "new_craftings:enchanted_gold",
         "new_craftings:enchanted_diamond",
-        "main:no_phantom"
+        "main:no_phantom",
+        "tryashtar.shulker_preview:meta/tick"
     ]
 }
