@@ -13,21 +13,22 @@
     "criteria": {
         "mine_nether_gold_ore": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"stats": [
-							{
-								"type": "minecraft:mined",
-								"stat": "minecraft:stone",
-								"value": {
-									"min": 1
-								}
-							}
-						]
-					}
-				}
-			}
+			"criteria": {
+                "root": {
+                    "trigger": "minecraft:location",
+                    "conditions": {
+                        "player":  {
+                            "player": {
+                                "advancements": {
+                                    "genep:stupid_advancements/statistics/root": "true",
+                                    "genep:stupid_advancements/mining/root": "true",
+                                    "genep:stupid_advancements/adventure/root": "true"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
