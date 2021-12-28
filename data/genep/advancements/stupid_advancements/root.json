@@ -3,21 +3,28 @@
         "icon": {
             "item": "minecraft:ender_eye"
         },
-        "title": "The End",
+        "title": {"translate":"The End"},
+        "description": {"translate":"You have reached the end of the world. You must leave now or you will die."},
+        "announce_to_chat": true,
+        "show_toast": false,
         "background": "minecraft:textures/block/black_wool.png",
-        "description": " You have reached the end of the world. You must leave now or you will die. "
+		"frame": "task"
     },
-	"criteria": {
-        "root": {
+    "criteria": {
+        "mine_nether_gold_ore": {
             "trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"player": {
-						"advancements": {
-							"genep:stupid_advancements/statistics/root": "true",
-                            "genep:stupid_advancements/mining/root": "true",
-                            "genep:stupid_advancements/adventure/root": "true"
-						}
+						"stats": [
+							{
+								"type": "minecraft:mined",
+								"stat": "minecraft:stone",
+								"value": {
+									"min": 1
+								}
+							}
+						]
 					}
 				}
 			}

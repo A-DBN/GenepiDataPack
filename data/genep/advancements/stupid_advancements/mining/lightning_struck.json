@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Called Shot"},
         "description": {"color":"#75E1FF","translate":"Get struck by lightning while standing on a Lightning Rod"},
-        "announce_to_chat": false,
+        "announce_to_chat": true,
 		"frame": "goal"
     },
     "parent": "genep:stupid_advancements/mining/root",	

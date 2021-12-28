@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Eeuuwww!"},
         "description": {"translate":"Get stuck in a cobweb"},
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "genep:stupid_advancements/mining/root",
     "criteria": {

@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Nyan Sheep"},
         "description": {"translate":"Nyan Nyan Nyan Nyan..."},
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "genep:stupid_advancements/adventure/root",		
     "criteria": {

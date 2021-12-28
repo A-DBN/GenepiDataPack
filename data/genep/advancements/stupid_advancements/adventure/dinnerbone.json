@@ -6,7 +6,7 @@
         },
         "title": {"translate":"What's Up, Doc?"},
         "description": {"translate":"Turn a mob upside-down"},
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "genep:stupid_advancements/adventure/root",		
     "criteria": {

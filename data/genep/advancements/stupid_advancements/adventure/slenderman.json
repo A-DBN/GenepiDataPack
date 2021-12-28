@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Slenderman"},
         "description": {"color":"#75E1FF","translate":"Defeat this terrifying monster"},
-        "announce_to_chat": false,
+        "announce_to_chat": true,
 		"frame": "goal"
     },
     "parent": "genep:stupid_advancements/adventure/root",

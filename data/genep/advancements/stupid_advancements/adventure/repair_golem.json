@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Your Daily Fix"},
         "description": {"translate":"Use an Iron Ingot to repair a damaged Iron Golem"},
-        "announce_to_chat": false
+        "announce_to_chat": true
     },
     "parent": "genep:stupid_advancements/adventure/root",	
     "criteria": {
