@@ -1,0 +1,1 @@
+give @p enchanted_book{Unbreakable: 1b, display: {Name: '{"text":"Choose wisely","bold": true, "color": "red", "underlined": true}', Lore: ["\"Laurent DeLaCouette\""]}} 1

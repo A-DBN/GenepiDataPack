@@ -1,0 +1,15 @@
+{
+    "type":"crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:wet_sponge"
+        },
+        {
+            "item": "minecraft:coal"
+        }
+    ],
+    "result": {
+        "item":"minecraft:sponge",
+        "count":1
+    }
+}
