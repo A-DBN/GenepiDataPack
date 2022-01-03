@@ -1,7 +1,7 @@
 {
     "replace": true,
     "values": [
-        "minecraft:air"
+        "minecraft:melon",
+      "minecraft:pumpkin"
     ]
   }
-  
