@@ -7,12 +7,12 @@
     ],
     "key": {
         "L": {
-            "item": "minecraft:leather"
+            "item": "minecraft:rotten_flesh"
         }
     },
     "result": {
-        "item": "minecraft:light",
-        "count": 4
+        "item": "minecraft:leather",
+        "count": 1
     }
   }
   
