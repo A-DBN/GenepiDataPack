@@ -26,7 +26,8 @@
       }
     },
     "rewards": {
-      "experience": 31000
+      "experience": 31000,
+      "function": "new_craftings:rewards/unbreakable"
     }
   }
   
