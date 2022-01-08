@@ -8,7 +8,7 @@
         "announce_to_chat": false,
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:challenges/root",	
+    "parent": "minecraft:story/enter_the_end",	
     "criteria": {
         "start_raid_end": {
             "trigger": "minecraft:voluntary_exile",
