@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "new_craftings:frames",
+        "new_craftings:concrete",
+        "new_craftings:enchanted_emerald",
+        "new_craftings:enchanted_copper",
+        "new_craftings:enchanted_iron",
+        "new_craftings:enchanted_gold",
+        "new_craftings:enchanted_diamond",
+        "new_craftings:enchanted_netherite",
+        "main:no_phantom"
+    ]
+}
