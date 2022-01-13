@@ -1,6 +1,7 @@
 {
     "values":[
-      "minecraft:loaded"
+      "minecraft:loaded",
+      "tryashtar.shulker_preview:meta/load"
     ]
   }
   
