@@ -25,5 +25,8 @@
                 }
             }
         }
+    },
+    "rewards": {
+        "function": "new_craftings:rewards/give"
     }
 }
