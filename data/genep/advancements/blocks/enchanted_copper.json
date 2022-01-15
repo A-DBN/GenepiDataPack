@@ -1,7 +1,8 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:copper_block"
+        "item": "minecraft:copper_block",
+        "nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:3}]}"
       },
       "title": "Finally Usefull ... I Suppose ?",
       "description": "Get an enchanted copper block",

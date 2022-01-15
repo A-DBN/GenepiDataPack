@@ -1,7 +1,8 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:emerald_block"
+        "item": "minecraft:emerald_block",
+        "nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:3}]}"
       },
       "title": "Stonks",
       "description": "Get an enchanted emerald block",
