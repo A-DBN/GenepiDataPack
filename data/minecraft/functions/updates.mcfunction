@@ -1,4 +1,3 @@
-tellraw @a {"text":"[~] Change XP level in statistics", "bold": false, "color":"white", "italic": true}
-tellraw @a {"text":"[+] Add reward to the final advancement", "bold": false, "color":"white", "italic": true}
-tellraw @a {"text":"[~] Changed enchanted_blocks icons", "bold": false, "color":"white", "italic": true}
-
+tellraw @a {"text":"[~] Change some inconsistency on some advancements", "bold": false, "color":"white", "italic": true}
+tellraw @a {"text":"[+] Added some rewards to some advancements", "bold": false, "color":"white", "italic": true}
+tellraw @a {"text":"[~] Change icons of some advancements", "bold": false, "color":"white", "italic": true}
