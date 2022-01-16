@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone_sword"
+            "item": "minecraft:stone_sword",
+            "nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:3}]}"
         },
         "title": {"translate":"Mob Hunter"},
         "description": {"translate":"Defeat 42000 mobs"},
