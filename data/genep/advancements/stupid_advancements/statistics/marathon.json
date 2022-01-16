@@ -21,7 +21,7 @@
 								"type": "minecraft:custom",
 								"stat": "minecraft:sprint_one_cm",
 								"value": {
-									"min": 14700000
+									"min": 25000000
 								}
 							}
 						]
@@ -29,5 +29,7 @@
 				}
 			}
         }
-    }
+    }, "rewards": {
+		"function": "new_craftings:rewards/new_boots"
+	}
 }
