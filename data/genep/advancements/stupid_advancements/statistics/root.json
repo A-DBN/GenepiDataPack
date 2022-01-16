@@ -103,7 +103,7 @@
 								"type": "minecraft:custom",
 								"stat": "minecraft:sprint_one_cm",
 								"value": {
-									"min": 14800000
+									"min": 25000000
 								}
 							}
 						]
