@@ -103,7 +103,7 @@
 								"type": "minecraft:custom",
 								"stat": "minecraft:sprint_one_cm",
 								"value": {
-									"min": 25000000
+									"min": 14800000
 								}
 							}
 						]
@@ -111,5 +111,7 @@
 				}
 			}
         }
-    }
+    }, "rewards": {
+		"experience": 200
+	}
 }
