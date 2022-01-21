@@ -1,2 +1,2 @@
-tellraw @a {"text":"[+] Add enchanted netherite block and change netherite block succes", "bold": false, "color":"white", "italic": true}
+tellraw @a {"text":"[~] Enchanted Diamond Block => 4 Stacks + 1 diamond", "bold": false, "color":"white", "italic": true}
 
