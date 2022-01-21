@@ -1,7 +1,8 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:emerald_block"
+        "item": "minecraft:netherite_block",
+        "nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:3}]}"
       },
       "title": "I won ... But at what cost ?",
       "description": "Get an enchanted netherite block",

@@ -1,7 +1,8 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:iron_block"
+        "item": "minecraft:iron_block",
+        "nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:3}]}"
       },
       "title": "Poor Iron Golems",
       "description": "Get an enchanted iron block",

@@ -1,0 +1,1 @@
+give @p chainmail_boots{Unbreakable:true, display:{Name: '{"text": "Super Boots", "bold": true, "italic": true, "color": "red"}', Lore: ["\"A new pair of boots. I suppose you could use them instead of your worn boots.\""]}}

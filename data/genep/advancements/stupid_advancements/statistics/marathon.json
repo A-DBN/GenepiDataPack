@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:chainmail_leggings"
+            "item": "minecraft:chainmail_leggings",
+			"nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:3}]}"
         },
         "title": {"translate":"Your legs must be tired"},
         "description": {"translate":"Sprint 250km"},
@@ -28,5 +29,7 @@
 				}
 			}
         }
-    }
+    }, "rewards": {
+		"function": "new_craftings:rewards/new_boots"
+	}
 }

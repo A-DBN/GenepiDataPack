@@ -1,7 +1,8 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:diamond_block"
+        "item": "minecraft:diamond_block",
+        "nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:3}]}"
       },
       "title": "What A Nice Cave Update",
       "description": "Get an enchanted diamond block",
