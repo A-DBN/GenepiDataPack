@@ -4,9 +4,8 @@
   "predicate": {
     "effects": {
       "minecraft:haste": {
-        "amplifier": 2
+        "amplifier": 1
       }
     }
   }
 }
-    

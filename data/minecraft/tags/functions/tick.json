@@ -1,11 +1,11 @@
 {
     "replace": false,
     "values": [
-        "new_craftings:frames",
-        "new_craftings:concrete",
-        "main:no_phantom",
-        "tryashtar.shulker_preview:meta/tick",
-        "new_craftings:tick",
-        "instaminer:load"
-    ]
-}
+      "new_craftings:frames",
+      "new_craftings:concrete",
+      "main:no_phantom",
+      "tryashtar.shulker_preview:meta/tick",
+      "new_craftings:tick",
+      "instaminer:load"
+    ] 
+  }
