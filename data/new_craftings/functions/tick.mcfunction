@@ -1,1 +1,0 @@
-execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe", tag:{CustomModelData:619001}}}] at @s run effect give @s haste 1 100 true

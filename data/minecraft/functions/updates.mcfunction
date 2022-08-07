@@ -1,2 +1,2 @@
-tellraw @a {"text":"[+] Va niquer ta mere loic", "bold": false, "color":"white", "italic": true}
+tellraw @a {"text":"[+] Bruh c'est fix", "bold": false, "color":"white", "italic": true}
 

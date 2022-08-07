@@ -1,1 +1,0 @@
-give @p potion{CustomPotionEffects:[{Id:11,Amplifier:3,Duration:72000}],display:{Name: '{"text":"Enchanted Potion Of Resistance", "color":"white", "italic": true, "bold": true}'}} 1

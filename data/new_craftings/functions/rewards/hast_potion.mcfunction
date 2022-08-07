@@ -1,2 +1,0 @@
-give @p potion{CustomPotionEffects:[{Id:3,Amplifier:5,Duration:72000}], display:{Name: '{"text":"Enchanted Potion Of Haste", "color":"yellow", "italic": true, "bold": true}'}} 1
-give @p diamond{display:{Name: '{"text":"Fake Diamond", "color":"cyan", "italic": true, "bold": true}', Lore: ["\"Yep, It's a fake diamond\""]}} 1

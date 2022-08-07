@@ -1,1 +1,0 @@
-give @s netherite_pickaxe{Unbreakable:true,display:{Name:'{"text":"Pick of Destiny","color":"dark_purple","bold":true,"italic":true,"underlined":true}',Lore:['{"text":"The ultimate tool","color":"light_purple","italic":true}']},CustomModelData:619001} 1
