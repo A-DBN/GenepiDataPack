@@ -1,1 +1,1 @@
-effect give @a haste 7 10 false
+effect give @p haste 3 10 false
