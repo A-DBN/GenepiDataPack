@@ -1,1 +1,0 @@
-execute if entity @p[nbt={Inventory:[{id:"minecraft:netherite_pickaxe"}]}] run function instaminer:efficiency
